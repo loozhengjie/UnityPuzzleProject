@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8092946359188638260
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8092946359188638219}
+  - component: {fileID: 8092946359188638218}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8092946359188638219
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8092946359188638260}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8092946359188638218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8092946359188638260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc64b02f5ff91564aa7231f2e4fdb5df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  twoTimesTwoPuzzleSetLibrary:
+  - {fileID: 6053861108314165560, guid: 9ae8e8c42f7dbeb4c964db905d3f7e34, type: 3}
+  threeTimesThreePuzzleSetLibrary:
+  - {fileID: 3378483301118764558, guid: 9683d819264017f469a0abc067d0acb0, type: 3}
+  fourTimesfourPuzzleSetLibrary:
+  - {fileID: 3378483301118764558, guid: 8b7233acb969d8848a17bdd7553d269c, type: 3}
+  wordsToSolve: []
+  wordsToSolveCache: []
+  wordTextToSolve: {fileID: 4431230607784520542, guid: 94817f5ec79af6f4e9e248858e3d9d55, type: 3}
+  threeUS: {fileID: 6106192895214276483, guid: 4aa48fc17407f9c4fb0d30ee51fd98ca, type: 3}
+  fourUS: {fileID: 5359382582528456260, guid: fd81535eaf1bbb044a7c9c508132b31a, type: 3}
+  fiveUS: {fileID: 8150927126461087269, guid: 8f2fd46a7586a3a4c8dd70d93f4dc33b, type: 3}
+  sixUS: {fileID: 7982105720287203058, guid: b54978cce0227144b987b63e9b7d6a04, type: 3}
+  ballIMG: {fileID: 21300000, guid: 31552b0aa36b6844588476f455084689, type: 3}
+  catIMG: {fileID: 21300000, guid: 1731d49ba2b289549a452dd334a2273a, type: 3}
+  cakeIMG: {fileID: 21300000, guid: ad21e3e450499804f8c8dacc20d13ac8, type: 3}
+  sunIMG: {fileID: 21300000, guid: bca57b0b1840a9447b2bb6dd7e28e9b2, type: 3}
+  shirtIMG: {fileID: 21300000, guid: 396954f67c575da489c8729249f9275b, type: 3}
+  treesIMG: {fileID: 21300000, guid: 4633fac8edc81b141992993862913339, type: 3}
+  cloudIMG: {fileID: 21300000, guid: fc97945a4cde0e4468f53a7a86e662d7, type: 3}
+  houseIMG: {fileID: 21300000, guid: aa8c46844a970e84ebb0c9a75ce47d68, type: 3}
+  pianoIMG: {fileID: 21300000, guid: 5c230bf5c8391ec4c811eb6e3365b59d, type: 3}
+  pencilIMG: {fileID: 21300000, guid: 5bbc3abcc23ba7441a0e48f22036069b, type: 3}
+  flowerIMG: {fileID: 21300000, guid: 856efb807486a8b4986b25a719379dc8, type: 3}
+  cheeseIMG: {fileID: 21300000, guid: abbf91dd92f0c1046aba24456f3950bf, type: 3}
+  breadIMG: {fileID: 21300000, guid: 24ebd070e22ac87408ee2d05e5989553, type: 3}
+  butterIMG: {fileID: 21300000, guid: 0280fb0dae7eb4e4ea555cc457e30b38, type: 3}
+  spoonIMG: {fileID: 21300000, guid: 56f62468c06177d40a8259d947a40add, type: 3}
+  doorIMG: {fileID: 21300000, guid: e13f6b6bde3dd6141bb2e4977be15f94, type: 3}
+  correctSunIMG: {fileID: 21300000, guid: 0c036ff8063b34d4f95559dd00b4a9fe, type: 3}
+  wrongSunIMG: {fileID: 21300000, guid: 4558c994e379248479ac3cb286381a43, type: 3}
+  correctBallIMG: {fileID: 21300000, guid: f983254447d52e84198ed6ccd93de5ec, type: 3}
+  wrongBallIMG: {fileID: 21300000, guid: 49ff595061257c8449907406ef3e48bd, type: 3}
+  correctTree1IMG: {fileID: 21300000, guid: eaeba4d9439547d41a248b162aa07613, type: 3}
+  wrongTree1IMG: {fileID: 21300000, guid: 9f2dca91f6b00a7428d31066c7ce8df5, type: 3}
+  correctTree2IMG: {fileID: 21300000, guid: bcab1fd65dab65f4b9db3a1cf60d5aa7, type: 3}
+  wrongTree2IMG: {fileID: 21300000, guid: 200369c803c47724e853530c8bbb83d9, type: 3}
+  correctHouse1IMG: {fileID: 21300000, guid: 9fed65ace67d10a4b8c4d8d2a39eaa5d, type: 3}
+  wrongHouse1IMG: {fileID: 21300000, guid: e7139e1b3304a174e9e649e1ea9b0b2a, type: 3}
+  correctHouse2IMG: {fileID: 21300000, guid: a86a9f3e4dd31c6408bb29cd0297fc40, type: 3}
+  wrongHouse2IMG: {fileID: 21300000, guid: af1bdd582ee8ef949bb6be864d77f5d1, type: 3}
+  correctFlower1IMG: {fileID: 21300000, guid: 3eddf1b245a681d45a68f506639c5373, type: 3}
+  wrongFlower1IMG: {fileID: 21300000, guid: 3fd208fd727ce9149a9f2f913b09ba2d, type: 3}
+  correctFlower2IMG: {fileID: 21300000, guid: 83be5d7647965184eb0487df29c2ca7b, type: 3}
+  wrongFlower2IMG: {fileID: 21300000, guid: 1b0b8f9e72d1ec344af6ce5b8c003db3, type: 3}
+  correctDoor1IMG: {fileID: 21300000, guid: 6033b4b3fed1195489f68d5a101bfb95, type: 3}
+  wrongDoor1IMG: {fileID: 21300000, guid: 8e2daf544978f284a8403702b60f5f3c, type: 3}
+  correctDoor2IMG: {fileID: 21300000, guid: c1899ae392a464943a998167228084ca, type: 3}
+  wrongDoor2IMG: {fileID: 21300000, guid: 5936da6421bfadd408910d593c2e90b2, type: 3}
+  imageLibrary:
+  - letter: 65
+    image: {fileID: -685455796, guid: f550b7f88d1901746b5ff9cd23f58a15, type: 3}
+  - letter: 66
+    image: {fileID: -497793823, guid: f550b7f88d1901746b5ff9cd23f58a15, type: 3}
+  - letter: 67
+    image: {fileID: 1314002879, guid: f550b7f88d1901746b5ff9cd23f58a15, type: 3}
+  - letter: 68
+    image: {fileID: 21300000, guid: bb06295f0fc4221489ede7c35291de2b, type: 3}
+  - letter: 69
+    image: {fileID: 21300000, guid: 6568aa404ee7362438178388aacd5394, type: 3}
+  - letter: 70
+    image: {fileID: 21300000, guid: 2c062cd308c7d7b4e8be7cca5e258f17, type: 3}
+  - letter: 71
+    image: {fileID: 21300000, guid: c72794fd0418ce74083e35d243e59226, type: 3}
+  - letter: 72
+    image: {fileID: 21300000, guid: 0106b77d8ac0dd64bb95f97b7c7ccddb, type: 3}
+  - letter: 73
+    image: {fileID: 21300000, guid: b5cad63a3aa3ebf43a0f27e894d62276, type: 3}
+  - letter: 74
+    image: {fileID: 21300000, guid: 01f7169ee06f1ac4483b62899f40956e, type: 3}
+  - letter: 75
+    image: {fileID: 21300000, guid: 5f915d4a98bf3df429a6bef45842456c, type: 3}
+  - letter: 76
+    image: {fileID: 21300000, guid: ff9f0c5b313f1ca449e9b4d72d059d9c, type: 3}
+  - letter: 77
+    image: {fileID: 21300000, guid: 7261c0a5c9c32964ea403249d32e872f, type: 3}
+  - letter: 78
+    image: {fileID: 21300000, guid: e16103f5c33b9bb499f08b61eb090798, type: 3}
+  - letter: 79
+    image: {fileID: 21300000, guid: 1a947146765a3aa4ca1b6f4aa7da87a1, type: 3}
+  - letter: 80
+    image: {fileID: 21300000, guid: cbe8648781b001d44921a699e08e3e0f, type: 3}
+  - letter: 81
+    image: {fileID: 21300000, guid: cbd1098baefb8c947952b92622e8eac3, type: 3}
+  - letter: 82
+    image: {fileID: 21300000, guid: 4b31d67344f12c04d9da2592dcaed4d9, type: 3}
+  - letter: 83
+    image: {fileID: 21300000, guid: e00d6f14ccb5e8247a954255c016f614, type: 3}
+  - letter: 84
+    image: {fileID: 21300000, guid: 1d802d0fc13c0fa4a832b7c47e868fcc, type: 3}
+  - letter: 85
+    image: {fileID: 21300000, guid: 45f59efcdb269c441907c6ae8341a2e6, type: 3}
+  - letter: 86
+    image: {fileID: 21300000, guid: 06531d30b76c32e42a06ad051f649a62, type: 3}
+  - letter: 87
+    image: {fileID: 21300000, guid: d57cedb97479bf346852850007f8b420, type: 3}
+  - letter: 88
+    image: {fileID: 21300000, guid: 37395b1434e5d9d42b51595ee3db9bd5, type: 3}
+  - letter: 89
+    image: {fileID: 21300000, guid: 1213bb8332d96a449b472837158b6318, type: 3}
+  - letter: 89
+    image: {fileID: 21300000, guid: c18da120e2a17e94abf60c0d53c6c22e, type: 3}
